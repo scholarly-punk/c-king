@@ -44,6 +44,8 @@ int main(void)
   // h
   scanf("%f, %f", &a, &b);
   printf("%f %f\n", a, b);
+
+  // g and h are equivalent
   
   return 0;
 }
