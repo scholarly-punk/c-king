@@ -8,11 +8,11 @@ int main(void)
 
   printf("Enter unit price: ");
   float unit_price = 0.0f;
-  scanf("%f", &unit_price);
+  scanf("%7f", &unit_price);
 
   printf("Enter purchase date (mm/dd/yyyy): ");
   int day = 0, month = 0, year = 0;
-  scanf("%d/%d/%d", &day, &month, &year);
+  scanf("%2d/%2d/%4d", &day, &month, &year);
 
   printf("Item\t\tUnit\t\tPurchase\n");
   printf("\t\tPrice\t\tDate\n");
